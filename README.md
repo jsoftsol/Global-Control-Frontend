@@ -8,6 +8,40 @@ Documentation for the web frontend of Global Control, a CRM and marketing automa
 
 Global Control is a single-page app where a business (or an agency running accounts for its clients) manages contacts and automates follow-up. A contact gets tagged, and tags start workflows that send emails and SMS, wait, branch, move people between workflows, or fire third-party integrations. Around that core sit broadcast email, sales pipelines, appointment booking, AI chat bots, reporting, and white-label tools for agencies.
 
+## Screenshots
+
+Taken from a demo account. Email addresses, contact names and the sending domain are pixelated.
+
+**Dashboard.** Live contact and tag activity, entry points, top workflows, tags and integrations.
+![Dashboard](screenshots/dashboard.png)
+
+**Contacts.** Status-segmented contact table with tag filter, search, import and export.
+![Contacts](screenshots/contacts.png)
+
+**Tags.** Tag library with groups, labels, contact and tag action counts, and the same status segments as the contact table.
+![Tags](screenshots/tags.png)
+
+**Workflow.** Step view with email, timer and end nodes, plus active, completed, frozen and goal-met counts.
+![Workflow](screenshots/workflow.png)
+
+**Pipeline.** Kanban board with stages, lead cards, deal values and list and calendar views.
+![Pipeline board](screenshots/pipeline.png)
+
+**Broadcast email.** Composer with subject, preview text, rich text editor, AI assistant and short codes.
+![Broadcast email](screenshots/broadcast-email.png)
+
+**Email monitoring.** Re-engagement tab with engagement by day and a recovered contacts table.
+![Email monitoring](screenshots/reporting.png)
+
+**Appointments.** Appointment list with calendar and status filters and scheduled, completed and cancelled counts. The table is empty in this demo account.
+![Appointments](screenshots/appointments.png)
+
+**AI chat bot builder.** Live preview next to the bot settings, with page and widget modes.
+![Chat bot builder](screenshots/chat-bots.png)
+
+**Integration board.** Catalog of third-party services grouped by category, with search.
+![Integration board](screenshots/integrations.png)
+
 ## Architecture
 
 ```
